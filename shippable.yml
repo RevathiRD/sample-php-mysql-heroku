@@ -12,7 +12,7 @@ env:
   global:
     - APP_NAME=mysqlheroku
     - CLEARDB_DATABASE_URL=mysql://shippable@127.0.0.1:3306/test?reconnect=true
-    - secure: MRuHkLbL9HPkJPU5lzkKM1+NOq1S5RrhxEyhJkk60xxYiF7DMzydiBN8oFBjWrSmyGeGRuEC22a0I5ItobdWVszfcJCaXHwtfKzfGOUdKuyCnDgvojXhv/jrBvULyLK6zsLw3b8NMxdnwNsHqSPm19qW/EIGEl9Zv/637Igos69z9aT7+xrEG013+6HtKYb8RHm+iPSNsFoBi/RSAHYuM1eLTZWG2WAkjgzZaYmrHCgNwVmk+HOGR+TOWN7Iu5lrjyvC1XDCQrOvo1hZI30cd9OqJ5aadFm3exQpNhI4I7AgOnCbK3NoWNc/GAnqKXCvsaIQ80Jd/uLIOVyMjD6Xmg==
+    - secure: oyVQnhO6WSuqt+0s86nyY7Mv4AccrK8g3kI6BneYbjgxxG3PaNYXkYM0YWFP+7fsParhUlZoAB6rblDcevGHBe7eBtoz0YuD7wj5j3wD8RSVLlhL5SmNpeZrvj/ZJuO8HJg5msgTfMzlzq/swn+DpLwjdd2ec2CbBHHag43T/Rr9RU20FHqDyM9PWVuDWzoBd04laHW4dZ+yl8HJ9lMb/I4yODc/YvsIdruEdugvYJjCBUKon+umx5uItqApIGi2hmTEicUQeNvxqV4X5cjY49T7byO8dQTd/uoKvBJw+602S2ZL5Ha5IsiguEEYTbUn67R6qc3DKwAXep2IqJcl8g== 
 
 before_install:
   - which heroku || wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
